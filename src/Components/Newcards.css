@@ -1,0 +1,51 @@
+.Newcards {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #0c0c0c;
+    display: flex;
+    padding-top: 8dvh;
+}
+
+.left-card {
+    width: 25dvw;
+    height: 92dvh;
+    position: fixed;
+    border-right: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15dvh;
+}
+
+.left-card button {
+    width: 18dvw;
+    height: 5dvh;
+    border: none;
+    background: none;
+    text-align: start;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left-card:hover button {
+    color: #353535;
+}
+
+.left-card button:hover {
+    color: #fff;
+}
+
+.right-card {
+    width: 75dvw;
+    height: 100dvh;
+    margin-left: 25dvw;
+    padding-top: 15dvh;
+    padding-left: 10dvh;
+}
+
+.Sedan {
+    color: #fff;
+}
