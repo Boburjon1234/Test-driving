@@ -68,3 +68,8 @@
 .texts button:hover {
     border-bottom: 3px solid #333;
 }
+
+.texts img{
+    width: 200px;
+    height: 100px;
+}

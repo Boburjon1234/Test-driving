@@ -8,8 +8,7 @@ function Navbar() {
     return (
         <div className='Navbar'>
             <div className="texts">
-                <img src={logo} alt="..." />
-
+                <NavLink to='/'> <img src={logo} alt="..." /></NavLink>
                 <button><NavLink to='/Newcards'>New Cards</NavLink></button>
                 <button><NavLink to='Electrified'>Electrified</NavLink> </button>
                 <button><NavLink to='Business'>Business</NavLink></button>
